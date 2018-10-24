@@ -1,0 +1,84 @@
+<html>
+	<head>
+		<title>HTML Forms</title>
+	</head>
+	<body bgcolor="lightblue">
+		<center>
+			<h1>
+				<font color="green" align="center">
+					User Registration Form
+				</font>
+			</h1>
+			<hr>
+			<form>
+				Please Enter Your Name: 
+					<input 
+						type="text" 
+						size=30 
+						value ="Use upper case letters">
+					<br>
+				Please Enter Your Password:
+					<input 
+						type="password"
+						size=30
+						value="minimum of length 6">
+					
+					<input type="hidden" value="ali">
+					<br>Which language do you know?
+					<br>
+					<input
+						type="checkbox"
+						value="c">
+						c
+					<input
+						type="checkbox"
+						value="c++">
+						c++
+					<input
+						type="checkbox"
+						value="java">
+						java
+					<br>
+					<input
+						name="gender"
+						type="radio"
+						value="male">
+						male
+					<input
+						name="gender"
+						type="radio"
+						value="female">
+						female
+					<br>	
+					your Domicile:
+					<select name="domicile">
+						<option value="p">
+							Punjab
+						</option>
+						<option value="s">
+							Sindh
+						</option>
+						<option value="k">
+							kpk
+						</option>
+						<option value="b">
+							Balochistan
+						</option>
+						
+					</select>
+					<br>	
+					<textarea rows=5 cols=30>
+						Your Permanent Address
+					</textarea>	
+					<br>	
+					Attach your cv:<input type="file"  name="cv">
+					<input
+						type="reset"
+						value="Reset">
+					<input
+						type="submit"
+						value="submit">	
+			</form>
+		</center>
+	</body>
+</html>
